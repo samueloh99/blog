@@ -97,3 +97,7 @@
 .bg-gradient-to-l {
   background-image: linear-gradient(to left, #000000, transparent);
 }
+
+.swiper-pagination-bullet {
+  background-color: azure !important;
+}
