@@ -71,6 +71,29 @@
     @apply border-border;
   }
   body {
-    @apply bg-foreground text-white;
+    @apply bg-black text-white;
   }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide {
+  /* The animation duration should be the time it takes to move one image out of view */
+  animation: 35s slide linear infinite;
+  /* Use this to control the speed - the time it takes for one image to slide out. */
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, #000000, transparent);
+}
+
+.bg-gradient-to-l {
+  background-image: linear-gradient(to left, #000000, transparent);
 }
