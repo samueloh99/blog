@@ -119,3 +119,37 @@ export const categorias = [
   { id: 8, title: "Receitas Veganas" },
   { id: 9, title: "Café da Manhã Saudável" },
 ];
+
+export const faqs = [
+  {
+    question: "Quanto custa a assinatura do serviço?",
+    answer:
+      "A assinatura mensal custa R$50. Também oferecemos planos anuais com preços especiais.",
+  },
+  {
+    question: "Posso cancelar ou pausar minha assinatura a qualquer momento?",
+    answer:
+      "Sim, você tem total liberdade para cancelar ou pausar sua assinatura quando desejar, sem custos adicionais.",
+  },
+  {
+    question: "Como posso tirar dúvidas sobre uma receita ou tutorial?",
+    answer:
+      "Se tiver dúvidas, você pode deixar um comentário na página da receita ou do tutorial, e nossa equipe ou outros usuários poderão ajudá-lo.",
+  },
+  {
+    question: "Em quais dispositivos posso acessar o conteúdo?",
+    answer:
+      "Nosso conteúdo pode ser acessado em dispositivos móveis e pela web, sempre com alta qualidade de imagem e som.",
+  },
+  {
+    question:
+      "É necessário ter conhecimento prévio em culinária para seguir as receitas?",
+    answer:
+      "Não, nossas receitas são projetadas para serem fáceis de seguir por qualquer pessoa, independentemente do nível de experiência.",
+  },
+  {
+    question: "Preciso de acessórios especiais para fazer as receitas?",
+    answer:
+      "Nossas receitas são desenvolvidas para serem feitas com utensílios básicos de cozinha, tornando-as acessíveis para todos.",
+  },
+];
