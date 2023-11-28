@@ -18,7 +18,7 @@ export function HeroSection() {
           <Button variant="destructive">SEE PLANS</Button>
         </div>
       </div>
-      <div className="flex flex-col gap-5 fixed top-[100px] right-0 max-w-[1000px] w-full">
+      <div className="flex flex-col gap-5 absolute top-[20px] m-auto right-0 max-w-[1000px] w-full">
         <div className="flex flex-row w-full overflow-hidden">
           <div className="absolute left-0 top-0 bottom-0 w-[300px] bg-gradient-to-r from-black to-transparent z-10" />
           <div className="flex gap-5 whitespace-nowrap animate-slide">
