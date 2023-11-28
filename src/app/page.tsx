@@ -3,6 +3,7 @@ import Image from "next/image";
 import { HeroSection } from "@/components/herosection";
 import { FirstSection } from "@/components/firstsection";
 import { Carousel } from "@/components/carousel";
+import { InfoSection } from "@/components/infosection";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <FirstSection />
       <Carousel />
+      <InfoSection />
     </main>
   );
 }

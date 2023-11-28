@@ -106,3 +106,16 @@ export const slides = [
     time: "10 mins",
   },
 ];
+
+export const categorias = [
+  { id: 0, title: "Culinária Asiática" },
+  { id: 1, title: "Receitas Italianas" },
+  { id: 2, title: "Comida Mexicana" },
+  { id: 3, title: "Sobremesas Francesas" },
+  { id: 4, title: "Pratos Vegetarianos" },
+  { id: 5, title: "Cozinha Mediterrânea" },
+  { id: 6, title: "Receitas de Churrasco" },
+  { id: 7, title: "Comidas de Rua" },
+  { id: 8, title: "Receitas Veganas" },
+  { id: 9, title: "Café da Manhã Saudável" },
+];

@@ -66,8 +66,11 @@ export function Carousel() {
           })}
         </Swiper>
       </div>
-      <Button className="mt-10 text-lg" size={"lg"} variant={"default"}>
-        Explore all
+      <Button
+        variant={"destructive"}
+        className="w-[150px] h-[60px] font-bold uppercase text-base mt-10"
+      >
+        Ver todos
       </Button>
     </div>
   );
